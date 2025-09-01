@@ -1,0 +1,30 @@
+name: crucigrama_con_imagenes_nuevo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^6.0.0
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/imagenes/fondo_carga.png
+    - assets/imagenes/Facil/
+    - assets/imagenes/Medio/
+    - assets/imagenes/Dificil/
+    - assets/imagenes/Experto/
+    - assets/imagenes/gold.jpg
